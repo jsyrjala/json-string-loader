@@ -4,7 +4,9 @@ Overload imported module contents with given JSON string.
 
 ## Installation
 
+```sh
 npm install json-string-loader --save-dev
+```
 
 ## Usage
 
