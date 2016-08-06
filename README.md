@@ -9,7 +9,8 @@ npm install json-string-loader --save-dev
 ## Usage
 
 In webpack.config.js:
-```
+
+```js
 var appConfig = {
   key: 'data'
 }
@@ -22,7 +23,8 @@ loaders: [
 ```
 
 In browser:
-```
+
+```js
 var appConfig = require("./config.json");
 // => returns {key: 'data'}
 ```
