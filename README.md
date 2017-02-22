@@ -51,4 +51,4 @@ var appConfig = require("./config.json");
 
 ## License
 
-MIT (http://www.opensource.org/licenses/mit-license.php)
+[MIT](https://spdx.org/licenses/MIT)
