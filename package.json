@@ -1,16 +1,33 @@
 {
   "name": "json-string-loader",
   "version": "1.0.0",
-  "description": "Webpack loader for overloading imported module contents with given JSON string.",
+  "description": "Webpack loader for overloading imported module contents with given Object/JSON-string.",
   "main": "index.js",
   "author": "Juha Syrjälä",
+  "contributors": [
+    {
+      "name": "Koryukov Maksim",
+      "email": "maxkoryukov@gmail.com"
+    }, {
+      "name": "Volebo",
+      "url": "https://dev.volebo.net",
+      "email": "dev@volebo.net"
+    }
+  ],
   "license": "MIT",
   "keywords": [
+    "json",
+    "substitution",
+    "mock",
     "webpack",
-    "loader"
+    "loader",
+    "webpack-loader"
   ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jsyrjala/json-string-loader.git"
+  },
+  "dependencies": {
+    "loader-utils": "^1.0.2"
   }
 }
